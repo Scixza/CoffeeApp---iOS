@@ -1,0 +1,20 @@
+PODS:
+  - CircleMenu (3.0.6)
+  - GravitySliderFlowLayout (1.0)
+
+DEPENDENCIES:
+  - CircleMenu
+  - GravitySliderFlowLayout
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CircleMenu
+    - GravitySliderFlowLayout
+
+SPEC CHECKSUMS:
+  CircleMenu: 743ac815475e8e40e8848d2954fa7f7263d9f78d
+  GravitySliderFlowLayout: bb9ae6a302b85821c9e0271c00533fae8091143b
+
+PODFILE CHECKSUM: 2a4cbc9f28dd35c17318d872981af4d19573c7a0
+
+COCOAPODS: 1.5.2

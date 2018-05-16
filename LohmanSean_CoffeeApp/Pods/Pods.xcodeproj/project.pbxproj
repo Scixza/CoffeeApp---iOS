@@ -1,0 +1,946 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3986C47A52A488F1372E35FBDC8C5181 /* Pods-LohmanSean_CoffeeApp WatchKit App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 749A7B0B9F01322B02B4F961979BD53D /* Pods-LohmanSean_CoffeeApp WatchKit App-dummy.m */; };
+		90BFAFFA8645DCE3BE36D49923A44F26 /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1381B334BB03F5B6B29AFEB9FD7CD7C8 /* CircleMenuButton.swift */; };
+		9478596B17A2C600300E88428BD8A4D9 /* CircleMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 725CA2BD056C702F8ABF5DAF0BB8800A /* CircleMenu-dummy.m */; };
+		B34B38052AB3172D5B03524D8C8CBAE6 /* Pods-LohmanSean_CoffeeApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B4BED21D017F7A8E239B12DFFE9FA52A /* Pods-LohmanSean_CoffeeApp-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7ED094769A623E715B7627ECE38572C /* CircleMenuLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A548D4689A371F0E99C4699C7CDD504A /* CircleMenuLoader.swift */; };
+		B87560F8EEF71A3BF3DC75DF78E7C71A /* CircleMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 703E94ECBC7EBD27351DDB7C18AF2C9D /* CircleMenu.swift */; };
+		B8786B0527DC6478D9B01D24939BE1E2 /* GravitySliderFlowLayout-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DD023B25E31D4989C1056A1AF46FC79 /* GravitySliderFlowLayout-dummy.m */; };
+		C4A52D667A8F7EA55840ECCE0CF5CE53 /* Pods-LohmanSean_CoffeeApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E391474E5CA704C3A3B13FD2CD8F99FA /* Pods-LohmanSean_CoffeeApp-dummy.m */; };
+		CF9B208466AAA51EC14C4BBB516A141D /* GravitySliderFlowLayout-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EE04E3E962A6C04CE302A71BC849D4A1 /* GravitySliderFlowLayout-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E75073608BE04C0458199815894570A7 /* CircleMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFD3EC2FBE1224A1110311C2CBA5C0F /* CircleMenu-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF82CF4D94131B50D77750DC48DB36F0 /* GravitySliderFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F0E8DE9070E808BD53B1518FD4DBCC /* GravitySliderFlowLayout.swift */; };
+		F2AF1C6CED91BE0E90EC5D97A71A1396 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 913D6FBBE608219604FBFC0D5D3BB0C7 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69455F5C4B4488C5E044E22D5454FA2A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B79923306A627BB3E99465BF5CDDE860;
+			remoteInfo = GravitySliderFlowLayout;
+		};
+		D32FF89FF81BFF6A4EECAEADB429BDB0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0222C4E68BFE1E31C3FD3D3EB44714A1;
+			remoteInfo = CircleMenu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1381B334BB03F5B6B29AFEB9FD7CD7C8 /* CircleMenuButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuButton.swift; path = CircleMenuLib/CircleMenuButton/CircleMenuButton.swift; sourceTree = "<group>"; };
+		223212E5E367E3E84B35EEF672B9F75A /* GravitySliderFlowLayout.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GravitySliderFlowLayout.xcconfig; sourceTree = "<group>"; };
+		27D927DC98593A0732092307D20CCFB3 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LohmanSean_CoffeeApp WatchKit Extension-resources.sh"; sourceTree = "<group>"; };
+		2C69D063883B80F705672F081F9709DB /* libPods-LohmanSean_CoffeeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LohmanSean_CoffeeApp.a"; path = "libPods-LohmanSean_CoffeeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		364441FEDDBFD6FF7E36190A93E58EC5 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		3795A7A9DFFEEE493D50FEF73BAB811D /* CircleMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = CircleMenu.modulemap; path = ../../Headers/Public/CircleMenu/CircleMenu.modulemap; sourceTree = "<group>"; };
+		38454A7C48A6819EB32F72B22F4F59E1 /* Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		48CD1DAB839AF829045F5EF9B0078773 /* libCircleMenu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCircleMenu.a; path = libCircleMenu.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACE288C0D15BE7D8D457FE68B3FCC1D /* Pods-LohmanSean_CoffeeApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LohmanSean_CoffeeApp-frameworks.sh"; sourceTree = "<group>"; };
+		4AF266C32B37F21F7EBCB93EADF4FED9 /* Pods-LohmanSean_CoffeeApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LohmanSean_CoffeeApp-resources.sh"; sourceTree = "<group>"; };
+		546ABAAFE6F378CE297CC00881E434B2 /* Pods-LohmanSean_CoffeeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LohmanSean_CoffeeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5A93E31350B7C04F6BA123D8052EFB0C /* Pods-LohmanSean_CoffeeApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LohmanSean_CoffeeApp.modulemap"; sourceTree = "<group>"; };
+		6446D841C3DF3FDC73B4C2531A1E0D7C /* Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		68E2365F4875C293536D35582F7EC349 /* Pods-LohmanSean_CoffeeApp WatchKit App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LohmanSean_CoffeeApp WatchKit App-frameworks.sh"; sourceTree = "<group>"; };
+		703E94ECBC7EBD27351DDB7C18AF2C9D /* CircleMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenu.swift; path = CircleMenuLib/CircleMenu.swift; sourceTree = "<group>"; };
+		725CA2BD056C702F8ABF5DAF0BB8800A /* CircleMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CircleMenu-dummy.m"; sourceTree = "<group>"; };
+		749A7B0B9F01322B02B4F961979BD53D /* Pods-LohmanSean_CoffeeApp WatchKit App-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LohmanSean_CoffeeApp WatchKit App-dummy.m"; sourceTree = "<group>"; };
+		7B845E217683B97C969A364297F365F1 /* Pods-LohmanSean_CoffeeApp WatchKit App-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LohmanSean_CoffeeApp WatchKit App-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DD023B25E31D4989C1056A1AF46FC79 /* GravitySliderFlowLayout-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GravitySliderFlowLayout-dummy.m"; sourceTree = "<group>"; };
+		7E45821F0C9ABEA26DF3C4157B853662 /* GravitySliderFlowLayout.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = GravitySliderFlowLayout.modulemap; path = ../../Headers/Public/GravitySliderFlowLayout/GravitySliderFlowLayout.modulemap; sourceTree = "<group>"; };
+		8C0DDF1A4E9DFB734861DE60C834435E /* Pods-LohmanSean_CoffeeApp WatchKit Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LohmanSean_CoffeeApp WatchKit Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		8D42F5734375EC996C96CBF060B6B6AF /* libPods-LohmanSean_CoffeeApp WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LohmanSean_CoffeeApp WatchKit Extension.a"; path = "libPods-LohmanSean_CoffeeApp WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		913D6FBBE608219604FBFC0D5D3BB0C7 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LohmanSean_CoffeeApp WatchKit Extension-dummy.m"; sourceTree = "<group>"; };
+		9250515FD3F24148EEAAD9B4F82EC86C /* Pods-LohmanSean_CoffeeApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LohmanSean_CoffeeApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A548D4689A371F0E99C4699C7CDD504A /* CircleMenuLoader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleMenuLoader.swift; path = CircleMenuLib/CircleMenuLoader/CircleMenuLoader.swift; sourceTree = "<group>"; };
+		A5B1EEB1A3F0E79C534CD63343A188E6 /* Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		A5F0E8DE9070E808BD53B1518FD4DBCC /* GravitySliderFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GravitySliderFlowLayout.swift; path = GravitySliderFlowLayout/Classes/GravitySliderFlowLayout.swift; sourceTree = "<group>"; };
+		AD4F8E6C281C15223A753EAE7E98DC6E /* libGravitySliderFlowLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libGravitySliderFlowLayout.a; path = libGravitySliderFlowLayout.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA8D9517C9893BDD3778E01E4074C19 /* Pods-LohmanSean_CoffeeApp WatchKit App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LohmanSean_CoffeeApp WatchKit App-acknowledgements.plist"; sourceTree = "<group>"; };
+		B2577D0438262E31FBC3E4DBD21D7E72 /* CircleMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CircleMenu.xcconfig; sourceTree = "<group>"; };
+		B4BED21D017F7A8E239B12DFFE9FA52A /* Pods-LohmanSean_CoffeeApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LohmanSean_CoffeeApp-umbrella.h"; sourceTree = "<group>"; };
+		BB74A775893C6FDF465566299B0A6256 /* GravitySliderFlowLayout-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GravitySliderFlowLayout-prefix.pch"; sourceTree = "<group>"; };
+		C42C0912330FDED9227CDA41B916B67E /* libPods-LohmanSean_CoffeeApp WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-LohmanSean_CoffeeApp WatchKit App.a"; path = "libPods-LohmanSean_CoffeeApp WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4DA81D4F3C2E33EEC6B61A49FB26846 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LohmanSean_CoffeeApp WatchKit Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CEB044E678C3540B38B32061F1D74BBA /* CircleMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CircleMenu-prefix.pch"; sourceTree = "<group>"; };
+		CFE62A3214A78D7DC5A45F8B9A7DF93C /* Pods-LohmanSean_CoffeeApp WatchKit Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LohmanSean_CoffeeApp WatchKit Extension-frameworks.sh"; sourceTree = "<group>"; };
+		D3EE99350953AD2EB81E3C82E2E006BF /* Pods-LohmanSean_CoffeeApp WatchKit App-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LohmanSean_CoffeeApp WatchKit App-resources.sh"; sourceTree = "<group>"; };
+		DEFD3EC2FBE1224A1110311C2CBA5C0F /* CircleMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CircleMenu-umbrella.h"; path = "../../Headers/Public/CircleMenu/CircleMenu-umbrella.h"; sourceTree = "<group>"; };
+		E2A9720839991149F8EF6113D4904A5A /* Pods-LohmanSean_CoffeeApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LohmanSean_CoffeeApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3110B1583DDC4BC66B5C8FF2D7712A0 /* Pods-LohmanSean_CoffeeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LohmanSean_CoffeeApp.release.xcconfig"; sourceTree = "<group>"; };
+		E391474E5CA704C3A3B13FD2CD8F99FA /* Pods-LohmanSean_CoffeeApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LohmanSean_CoffeeApp-dummy.m"; sourceTree = "<group>"; };
+		EE04E3E962A6C04CE302A71BC849D4A1 /* GravitySliderFlowLayout-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GravitySliderFlowLayout-umbrella.h"; path = "../../Headers/Public/GravitySliderFlowLayout/GravitySliderFlowLayout-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		202E4A50CA5D926227E73642C6F61FE8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59BBD27A4229D292FEB02E2C71596070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9E40E71D71DED142B43E05A38B77F83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE200280CC4F8A039525B31FD4AA685A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4AE5B9F3D0C86BA929D56101066B0C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1239DA99222B0F165AC108646A2CD304 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E45821F0C9ABEA26DF3C4157B853662 /* GravitySliderFlowLayout.modulemap */,
+				223212E5E367E3E84B35EEF672B9F75A /* GravitySliderFlowLayout.xcconfig */,
+				7DD023B25E31D4989C1056A1AF46FC79 /* GravitySliderFlowLayout-dummy.m */,
+				BB74A775893C6FDF465566299B0A6256 /* GravitySliderFlowLayout-prefix.pch */,
+				EE04E3E962A6C04CE302A71BC849D4A1 /* GravitySliderFlowLayout-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GravitySliderFlowLayout";
+			sourceTree = "<group>";
+		};
+		3C2A9F7A578F3F652AC42BDCC291671B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				48CD1DAB839AF829045F5EF9B0078773 /* libCircleMenu.a */,
+				AD4F8E6C281C15223A753EAE7E98DC6E /* libGravitySliderFlowLayout.a */,
+				2C69D063883B80F705672F081F9709DB /* libPods-LohmanSean_CoffeeApp.a */,
+				C42C0912330FDED9227CDA41B916B67E /* libPods-LohmanSean_CoffeeApp WatchKit App.a */,
+				8D42F5734375EC996C96CBF060B6B6AF /* libPods-LohmanSean_CoffeeApp WatchKit Extension.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4627EAA5D4304701E25AC48B135FBA08 /* CircleMenu */ = {
+			isa = PBXGroup;
+			children = (
+				703E94ECBC7EBD27351DDB7C18AF2C9D /* CircleMenu.swift */,
+				1381B334BB03F5B6B29AFEB9FD7CD7C8 /* CircleMenuButton.swift */,
+				A548D4689A371F0E99C4699C7CDD504A /* CircleMenuLoader.swift */,
+				DEA610168DF03CE1782BBE3402E1C713 /* Support Files */,
+			);
+			name = CircleMenu;
+			path = CircleMenu;
+			sourceTree = "<group>";
+		};
+		53E288F2E3C29E26FBFCAF39D14A9CB7 /* Pods-LohmanSean_CoffeeApp */ = {
+			isa = PBXGroup;
+			children = (
+				5A93E31350B7C04F6BA123D8052EFB0C /* Pods-LohmanSean_CoffeeApp.modulemap */,
+				9250515FD3F24148EEAAD9B4F82EC86C /* Pods-LohmanSean_CoffeeApp-acknowledgements.markdown */,
+				E2A9720839991149F8EF6113D4904A5A /* Pods-LohmanSean_CoffeeApp-acknowledgements.plist */,
+				E391474E5CA704C3A3B13FD2CD8F99FA /* Pods-LohmanSean_CoffeeApp-dummy.m */,
+				4ACE288C0D15BE7D8D457FE68B3FCC1D /* Pods-LohmanSean_CoffeeApp-frameworks.sh */,
+				4AF266C32B37F21F7EBCB93EADF4FED9 /* Pods-LohmanSean_CoffeeApp-resources.sh */,
+				B4BED21D017F7A8E239B12DFFE9FA52A /* Pods-LohmanSean_CoffeeApp-umbrella.h */,
+				546ABAAFE6F378CE297CC00881E434B2 /* Pods-LohmanSean_CoffeeApp.debug.xcconfig */,
+				E3110B1583DDC4BC66B5C8FF2D7712A0 /* Pods-LohmanSean_CoffeeApp.release.xcconfig */,
+			);
+			name = "Pods-LohmanSean_CoffeeApp";
+			path = "Target Support Files/Pods-LohmanSean_CoffeeApp";
+			sourceTree = "<group>";
+		};
+		73E0A47E38584662153EF756F28DFCEE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E288F2E3C29E26FBFCAF39D14A9CB7 /* Pods-LohmanSean_CoffeeApp */,
+				AF888D0081972C62CEA880EAE11131BF /* Pods-LohmanSean_CoffeeApp WatchKit App */,
+				E481F08D067BC5AF5EDC2EC055A52D7D /* Pods-LohmanSean_CoffeeApp WatchKit Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0F8D2E47FE03D3B91B51069F7C273AF4 /* Frameworks */,
+				9941262D02DB5E37B2F055B13CDB7292 /* Pods */,
+				3C2A9F7A578F3F652AC42BDCC291671B /* Products */,
+				73E0A47E38584662153EF756F28DFCEE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9941262D02DB5E37B2F055B13CDB7292 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4627EAA5D4304701E25AC48B135FBA08 /* CircleMenu */,
+				AD26D3D53BA8911DA3399D13074BBD24 /* GravitySliderFlowLayout */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD26D3D53BA8911DA3399D13074BBD24 /* GravitySliderFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				A5F0E8DE9070E808BD53B1518FD4DBCC /* GravitySliderFlowLayout.swift */,
+				1239DA99222B0F165AC108646A2CD304 /* Support Files */,
+			);
+			name = GravitySliderFlowLayout;
+			path = GravitySliderFlowLayout;
+			sourceTree = "<group>";
+		};
+		AF888D0081972C62CEA880EAE11131BF /* Pods-LohmanSean_CoffeeApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				7B845E217683B97C969A364297F365F1 /* Pods-LohmanSean_CoffeeApp WatchKit App-acknowledgements.markdown */,
+				AEA8D9517C9893BDD3778E01E4074C19 /* Pods-LohmanSean_CoffeeApp WatchKit App-acknowledgements.plist */,
+				749A7B0B9F01322B02B4F961979BD53D /* Pods-LohmanSean_CoffeeApp WatchKit App-dummy.m */,
+				68E2365F4875C293536D35582F7EC349 /* Pods-LohmanSean_CoffeeApp WatchKit App-frameworks.sh */,
+				D3EE99350953AD2EB81E3C82E2E006BF /* Pods-LohmanSean_CoffeeApp WatchKit App-resources.sh */,
+				38454A7C48A6819EB32F72B22F4F59E1 /* Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig */,
+				A5B1EEB1A3F0E79C534CD63343A188E6 /* Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig */,
+			);
+			name = "Pods-LohmanSean_CoffeeApp WatchKit App";
+			path = "Target Support Files/Pods-LohmanSean_CoffeeApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		DEA610168DF03CE1782BBE3402E1C713 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3795A7A9DFFEEE493D50FEF73BAB811D /* CircleMenu.modulemap */,
+				B2577D0438262E31FBC3E4DBD21D7E72 /* CircleMenu.xcconfig */,
+				725CA2BD056C702F8ABF5DAF0BB8800A /* CircleMenu-dummy.m */,
+				CEB044E678C3540B38B32061F1D74BBA /* CircleMenu-prefix.pch */,
+				DEFD3EC2FBE1224A1110311C2CBA5C0F /* CircleMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CircleMenu";
+			sourceTree = "<group>";
+		};
+		E481F08D067BC5AF5EDC2EC055A52D7D /* Pods-LohmanSean_CoffeeApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				C4DA81D4F3C2E33EEC6B61A49FB26846 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-acknowledgements.markdown */,
+				8C0DDF1A4E9DFB734861DE60C834435E /* Pods-LohmanSean_CoffeeApp WatchKit Extension-acknowledgements.plist */,
+				913D6FBBE608219604FBFC0D5D3BB0C7 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-dummy.m */,
+				CFE62A3214A78D7DC5A45F8B9A7DF93C /* Pods-LohmanSean_CoffeeApp WatchKit Extension-frameworks.sh */,
+				27D927DC98593A0732092307D20CCFB3 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-resources.sh */,
+				6446D841C3DF3FDC73B4C2531A1E0D7C /* Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig */,
+				364441FEDDBFD6FF7E36190A93E58EC5 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig */,
+			);
+			name = "Pods-LohmanSean_CoffeeApp WatchKit Extension";
+			path = "Target Support Files/Pods-LohmanSean_CoffeeApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0AAA5A4D3386995864F99CAA12F700CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B34B38052AB3172D5B03524D8C8CBAE6 /* Pods-LohmanSean_CoffeeApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ADA4B0132DD0B1459BB7A04B29E7ADC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9B208466AAA51EC14C4BBB516A141D /* GravitySliderFlowLayout-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D09782B43DCD999022C22A734E29AA53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75073608BE04C0458199815894570A7 /* CircleMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0222C4E68BFE1E31C3FD3D3EB44714A1 /* CircleMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E244DFFFC8936B3271035280C4CB7D8 /* Build configuration list for PBXNativeTarget "CircleMenu" */;
+			buildPhases = (
+				19EB78FE0036C1294B8A0370492C5A9B /* Sources */,
+				DE200280CC4F8A039525B31FD4AA685A /* Frameworks */,
+				D09782B43DCD999022C22A734E29AA53 /* Headers */,
+				4AD55E29664C5B7726994A71F43D3A34 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircleMenu;
+			productName = CircleMenu;
+			productReference = 48CD1DAB839AF829045F5EF9B0078773 /* libCircleMenu.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		08A9B73F89BA9E321B32A27924C19C7E /* Pods-LohmanSean_CoffeeApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0788331888163A047185DEB2EC392007 /* Build configuration list for PBXNativeTarget "Pods-LohmanSean_CoffeeApp WatchKit App" */;
+			buildPhases = (
+				FB96A08012C10205440392CFC27DF95F /* Sources */,
+				59BBD27A4229D292FEB02E2C71596070 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LohmanSean_CoffeeApp WatchKit App";
+			productName = "Pods-LohmanSean_CoffeeApp WatchKit App";
+			productReference = C42C0912330FDED9227CDA41B916B67E /* libPods-LohmanSean_CoffeeApp WatchKit App.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3FAA0C7DA989C60BE716F24A69CBE6B2 /* Pods-LohmanSean_CoffeeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E13443F1E41CC40C2BCF8D33F630D1B2 /* Build configuration list for PBXNativeTarget "Pods-LohmanSean_CoffeeApp" */;
+			buildPhases = (
+				CB4121E8BB4A975AF91788604E1A9943 /* Sources */,
+				D9E40E71D71DED142B43E05A38B77F83 /* Frameworks */,
+				0AAA5A4D3386995864F99CAA12F700CC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1428BB6BDFF96C46A989F3F9B199387 /* PBXTargetDependency */,
+				CFF1CADBE5590A27C7326FF18841EB29 /* PBXTargetDependency */,
+			);
+			name = "Pods-LohmanSean_CoffeeApp";
+			productName = "Pods-LohmanSean_CoffeeApp";
+			productReference = 2C69D063883B80F705672F081F9709DB /* libPods-LohmanSean_CoffeeApp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A7836102925C0523EDAD6673541D75C8 /* Pods-LohmanSean_CoffeeApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC0AAA1BF2F8C59C1E6DBC78C680A704 /* Build configuration list for PBXNativeTarget "Pods-LohmanSean_CoffeeApp WatchKit Extension" */;
+			buildPhases = (
+				3F2FB66E864D175226E9DF15DD52065F /* Sources */,
+				F4AE5B9F3D0C86BA929D56101066B0C3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LohmanSean_CoffeeApp WatchKit Extension";
+			productName = "Pods-LohmanSean_CoffeeApp WatchKit Extension";
+			productReference = 8D42F5734375EC996C96CBF060B6B6AF /* libPods-LohmanSean_CoffeeApp WatchKit Extension.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B79923306A627BB3E99465BF5CDDE860 /* GravitySliderFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 428D6B342C96060A7D0A8262DFCA7681 /* Build configuration list for PBXNativeTarget "GravitySliderFlowLayout" */;
+			buildPhases = (
+				C5B07CCF58DA30178A4053BEB8C5FB54 /* Sources */,
+				202E4A50CA5D926227E73642C6F61FE8 /* Frameworks */,
+				3ADA4B0132DD0B1459BB7A04B29E7ADC /* Headers */,
+				571C51DDDF8B7B80B41695088499A691 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GravitySliderFlowLayout;
+			productName = GravitySliderFlowLayout;
+			productReference = AD4F8E6C281C15223A753EAE7E98DC6E /* libGravitySliderFlowLayout.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3C2A9F7A578F3F652AC42BDCC291671B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0222C4E68BFE1E31C3FD3D3EB44714A1 /* CircleMenu */,
+				B79923306A627BB3E99465BF5CDDE860 /* GravitySliderFlowLayout */,
+				3FAA0C7DA989C60BE716F24A69CBE6B2 /* Pods-LohmanSean_CoffeeApp */,
+				08A9B73F89BA9E321B32A27924C19C7E /* Pods-LohmanSean_CoffeeApp WatchKit App */,
+				A7836102925C0523EDAD6673541D75C8 /* Pods-LohmanSean_CoffeeApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AD55E29664C5B7726994A71F43D3A34 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/CircleMenu/CircleMenu.modulemap",
+				"${PODS_ROOT}/Headers/Public/CircleMenu/CircleMenu-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/CircleMenu-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CircleMenu/CircleMenu.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/CircleMenu/CircleMenu-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+		571C51DDDF8B7B80B41695088499A691 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/GravitySliderFlowLayout/GravitySliderFlowLayout.modulemap",
+				"${PODS_ROOT}/Headers/Public/GravitySliderFlowLayout/GravitySliderFlowLayout-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/GravitySliderFlowLayout-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/GravitySliderFlowLayout/GravitySliderFlowLayout.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/GravitySliderFlowLayout/GravitySliderFlowLayout-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+			showEnvVarsInLog = 1;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		19EB78FE0036C1294B8A0370492C5A9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9478596B17A2C600300E88428BD8A4D9 /* CircleMenu-dummy.m in Sources */,
+				B87560F8EEF71A3BF3DC75DF78E7C71A /* CircleMenu.swift in Sources */,
+				90BFAFFA8645DCE3BE36D49923A44F26 /* CircleMenuButton.swift in Sources */,
+				B7ED094769A623E715B7627ECE38572C /* CircleMenuLoader.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F2FB66E864D175226E9DF15DD52065F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2AF1C6CED91BE0E90EC5D97A71A1396 /* Pods-LohmanSean_CoffeeApp WatchKit Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5B07CCF58DA30178A4053BEB8C5FB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8786B0527DC6478D9B01D24939BE1E2 /* GravitySliderFlowLayout-dummy.m in Sources */,
+				EF82CF4D94131B50D77750DC48DB36F0 /* GravitySliderFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB4121E8BB4A975AF91788604E1A9943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4A52D667A8F7EA55840ECCE0CF5CE53 /* Pods-LohmanSean_CoffeeApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB96A08012C10205440392CFC27DF95F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3986C47A52A488F1372E35FBDC8C5181 /* Pods-LohmanSean_CoffeeApp WatchKit App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1428BB6BDFF96C46A989F3F9B199387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CircleMenu;
+			target = 0222C4E68BFE1E31C3FD3D3EB44714A1 /* CircleMenu */;
+			targetProxy = D32FF89FF81BFF6A4EECAEADB429BDB0 /* PBXContainerItemProxy */;
+		};
+		CFF1CADBE5590A27C7326FF18841EB29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GravitySliderFlowLayout;
+			target = B79923306A627BB3E99465BF5CDDE860 /* GravitySliderFlowLayout */;
+			targetProxy = 69455F5C4B4488C5E044E22D5454FA2A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0BE7805A1A4A782BC8B8A469B3003B1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223212E5E367E3E84B35EEF672B9F75A /* GravitySliderFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GravitySliderFlowLayout/GravitySliderFlowLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/GravitySliderFlowLayout/GravitySliderFlowLayout.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GravitySliderFlowLayout;
+				PRODUCT_NAME = GravitySliderFlowLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		217A4699131860DA5852F66DF99F798C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38454A7C48A6819EB32F72B22F4F59E1 /* Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		232E57E95F01C1EA79DF049EC1AD6F0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6446D841C3DF3FDC73B4C2531A1E0D7C /* Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		25CED662C562C8EF5A297E5C481F3EF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B1EEB1A3F0E79C534CD63343A188E6 /* Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		3FDA314369E3FEF73C8917672C74903C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2577D0438262E31FBC3E4DBD21D7E72 /* CircleMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleMenu/CircleMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/CircleMenu/CircleMenu.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CircleMenu;
+				PRODUCT_NAME = CircleMenu;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4FCC37F0F4CFAAD8136B4C06B4AE40F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		5BC96784186E64D4B157B9D3AC4C2911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3110B1583DDC4BC66B5C8FF2D7712A0 /* Pods-LohmanSean_CoffeeApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LohmanSean_CoffeeApp/Pods-LohmanSean_CoffeeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		801FA978FA33E0382820A0FA2875D774 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364441FEDDBFD6FF7E36190A93E58EC5 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		9E74969408C8065DE2845ED795710C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546ABAAFE6F378CE297CC00881E434B2 /* Pods-LohmanSean_CoffeeApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LohmanSean_CoffeeApp/Pods-LohmanSean_CoffeeApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE9986BB0A225ED5093147361E5A3176 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 223212E5E367E3E84B35EEF672B9F75A /* GravitySliderFlowLayout.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/GravitySliderFlowLayout/GravitySliderFlowLayout-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/GravitySliderFlowLayout/GravitySliderFlowLayout.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = GravitySliderFlowLayout;
+				PRODUCT_NAME = GravitySliderFlowLayout;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB4F5F8964F93CFECF52CFE59D610D75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2577D0438262E31FBC3E4DBD21D7E72 /* CircleMenu.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CircleMenu/CircleMenu-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/CircleMenu/CircleMenu.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CircleMenu;
+				PRODUCT_NAME = CircleMenu;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F241B82773A265804CB2F080B5199959 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0788331888163A047185DEB2EC392007 /* Build configuration list for PBXNativeTarget "Pods-LohmanSean_CoffeeApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				217A4699131860DA5852F66DF99F798C /* Debug */,
+				25CED662C562C8EF5A297E5C481F3EF6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E244DFFFC8936B3271035280C4CB7D8 /* Build configuration list for PBXNativeTarget "CircleMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3FDA314369E3FEF73C8917672C74903C /* Debug */,
+				CB4F5F8964F93CFECF52CFE59D610D75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4FCC37F0F4CFAAD8136B4C06B4AE40F0 /* Debug */,
+				F241B82773A265804CB2F080B5199959 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		428D6B342C96060A7D0A8262DFCA7681 /* Build configuration list for PBXNativeTarget "GravitySliderFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9986BB0A225ED5093147361E5A3176 /* Debug */,
+				0BE7805A1A4A782BC8B8A469B3003B1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC0AAA1BF2F8C59C1E6DBC78C680A704 /* Build configuration list for PBXNativeTarget "Pods-LohmanSean_CoffeeApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				232E57E95F01C1EA79DF049EC1AD6F0D /* Debug */,
+				801FA978FA33E0382820A0FA2875D774 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E13443F1E41CC40C2BCF8D33F630D1B2 /* Build configuration list for PBXNativeTarget "Pods-LohmanSean_CoffeeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E74969408C8065DE2845ED795710C5A /* Debug */,
+				5BC96784186E64D4B157B9D3AC4C2911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

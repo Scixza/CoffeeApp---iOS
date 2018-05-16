@@ -1,0 +1,6 @@
+module Pods_LohmanSean_CoffeeApp {
+  umbrella header "Pods-LohmanSean_CoffeeApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,30 @@
+project 'LohmanSean_CoffeeApp.xcodeproj'
+
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LohmanSean_CoffeeApp' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for LohmanSean_CoffeeApp
+pod 'CircleMenu'
+pod 'GravitySliderFlowLayout'
+
+end
+
+target 'LohmanSean_CoffeeApp WatchKit App' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for LohmanSean_CoffeeApp WatchKit App
+
+end
+
+target 'LohmanSean_CoffeeApp WatchKit Extension' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  #use_frameworks!
+
+  # Pods for LohmanSean_CoffeeApp WatchKit Extension
+
+end

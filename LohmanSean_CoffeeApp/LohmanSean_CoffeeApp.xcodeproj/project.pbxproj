@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2773C5E4B833ACBB183F58A2 /* libPods-LohmanSean_CoffeeApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62E0180BF1A9581FE19207BA /* libPods-LohmanSean_CoffeeApp.a */; };
+		302331E158457CC2144A5E57 /* libPods-LohmanSean_CoffeeApp WatchKit Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E70628E81A9C59DEC76F9A5E /* libPods-LohmanSean_CoffeeApp WatchKit Extension.a */; };
+		3A875FEF14B355E880930B43 /* libPods-LohmanSean_CoffeeApp WatchKit App.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB14263DDCD6F40CB31D40B8 /* libPods-LohmanSean_CoffeeApp WatchKit App.a */; };
+		B836B8D720AB7AF60039477A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B8D620AB7AF60039477A /* AppDelegate.swift */; };
+		B836B8D920AB7AF60039477A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B8D820AB7AF60039477A /* ViewController.swift */; };
+		B836B8DC20AB7AF60039477A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B836B8DA20AB7AF60039477A /* Main.storyboard */; };
+		B836B8DE20AB7AF70039477A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B836B8DD20AB7AF70039477A /* Assets.xcassets */; };
+		B836B8E120AB7AF70039477A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B836B8DF20AB7AF70039477A /* LaunchScreen.storyboard */; };
+		B836B8E620AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B836B8E520AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App.app */; };
+		B836B8EC20AB7AF70039477A /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B836B8EA20AB7AF70039477A /* Interface.storyboard */; };
+		B836B8EE20AB7AF80039477A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B836B8ED20AB7AF80039477A /* Assets.xcassets */; };
+		B836B8F520AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B836B8F420AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B836B8FA20AB7AF80039477A /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B8F920AB7AF80039477A /* InterfaceController.swift */; };
+		B836B8FC20AB7AF80039477A /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B8FB20AB7AF80039477A /* ExtensionDelegate.swift */; };
+		B836B8FE20AB7AF80039477A /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B836B8FD20AB7AF80039477A /* NotificationController.swift */; };
+		B836B90020AB7AF90039477A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B836B8FF20AB7AF90039477A /* Assets.xcassets */; };
+		B83C888C20ABAA6200330965 /* AddCoffeeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83C888B20ABAA6200330965 /* AddCoffeeController.swift */; };
+		B83C888F20ABB22300330965 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83C888E20ABB22300330965 /* Coffee.swift */; };
+		B83C889020ABB22300330965 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83C888E20ABB22300330965 /* Coffee.swift */; };
+		B83C889320ABB5D800330965 /* CoffeeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83C889220ABB5D800330965 /* CoffeeViewCell.swift */; };
+		B83C889620ABB90400330965 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B83C889520ABB90400330965 /* UIColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B836B8E720AB7AF70039477A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B836B8CB20AB7AF60039477A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B836B8E420AB7AF70039477A;
+			remoteInfo = "LohmanSean_CoffeeApp WatchKit App";
+		};
+		B836B8F620AB7AF80039477A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B836B8CB20AB7AF60039477A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B836B8F320AB7AF80039477A;
+			remoteInfo = "LohmanSean_CoffeeApp WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B836B90820AB7AF90039477A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B836B8F520AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B90C20AB7AF90039477A /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B836B8E620AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		50E72E1DFAB0A79F183F6925 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-LohmanSean_CoffeeApp WatchKit Extension/Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig"; sourceTree = "<group>"; };
+		52A6F369135F0DB75164B1F7 /* Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig"; path = "Pods/Target Support Files/Pods-LohmanSean_CoffeeApp WatchKit App/Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig"; sourceTree = "<group>"; };
+		62E0180BF1A9581FE19207BA /* libPods-LohmanSean_CoffeeApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LohmanSean_CoffeeApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6428445795C0E27BDBCEA3EF /* Pods-LohmanSean_CoffeeApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LohmanSean_CoffeeApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-LohmanSean_CoffeeApp/Pods-LohmanSean_CoffeeApp.release.xcconfig"; sourceTree = "<group>"; };
+		9210865EC1D48AC82AA24865 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LohmanSean_CoffeeApp WatchKit Extension/Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		B836B8D320AB7AF60039477A /* LohmanSean_CoffeeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LohmanSean_CoffeeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B836B8D620AB7AF60039477A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B836B8D820AB7AF60039477A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B836B8DB20AB7AF60039477A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B836B8DD20AB7AF70039477A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B836B8E020AB7AF70039477A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B836B8E220AB7AF70039477A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B836B8E520AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LohmanSean_CoffeeApp WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B836B8EB20AB7AF70039477A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		B836B8ED20AB7AF80039477A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B836B8EF20AB7AF80039477A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B836B8F420AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "LohmanSean_CoffeeApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B836B8F920AB7AF80039477A /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		B836B8FB20AB7AF80039477A /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		B836B8FD20AB7AF80039477A /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		B836B8FF20AB7AF90039477A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B836B90120AB7AF90039477A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B836B90220AB7AF90039477A /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B83C888B20ABAA6200330965 /* AddCoffeeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCoffeeController.swift; sourceTree = "<group>"; };
+		B83C888E20ABB22300330965 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		B83C889220ABB5D800330965 /* CoffeeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeViewCell.swift; sourceTree = "<group>"; };
+		B83C889520ABB90400330965 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		BB8FBBD4974F906020532B52 /* Pods-LohmanSean_CoffeeApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LohmanSean_CoffeeApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LohmanSean_CoffeeApp/Pods-LohmanSean_CoffeeApp.debug.xcconfig"; sourceTree = "<group>"; };
+		DE0AD552DFA514F4DCDE6B02 /* Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LohmanSean_CoffeeApp WatchKit App/Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig"; sourceTree = "<group>"; };
+		E70628E81A9C59DEC76F9A5E /* libPods-LohmanSean_CoffeeApp WatchKit Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LohmanSean_CoffeeApp WatchKit Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB14263DDCD6F40CB31D40B8 /* libPods-LohmanSean_CoffeeApp WatchKit App.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LohmanSean_CoffeeApp WatchKit App.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E8197A5AE58E880645DBA69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A875FEF14B355E880930B43 /* libPods-LohmanSean_CoffeeApp WatchKit App.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B8D020AB7AF60039477A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2773C5E4B833ACBB183F58A2 /* libPods-LohmanSean_CoffeeApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B8F120AB7AF80039477A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				302331E158457CC2144A5E57 /* libPods-LohmanSean_CoffeeApp WatchKit Extension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0241D7724CE26956E97EE972 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62E0180BF1A9581FE19207BA /* libPods-LohmanSean_CoffeeApp.a */,
+				EB14263DDCD6F40CB31D40B8 /* libPods-LohmanSean_CoffeeApp WatchKit App.a */,
+				E70628E81A9C59DEC76F9A5E /* libPods-LohmanSean_CoffeeApp WatchKit Extension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		113ECDC8499AF708DEFB839E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB8FBBD4974F906020532B52 /* Pods-LohmanSean_CoffeeApp.debug.xcconfig */,
+				6428445795C0E27BDBCEA3EF /* Pods-LohmanSean_CoffeeApp.release.xcconfig */,
+				DE0AD552DFA514F4DCDE6B02 /* Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig */,
+				52A6F369135F0DB75164B1F7 /* Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig */,
+				9210865EC1D48AC82AA24865 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig */,
+				50E72E1DFAB0A79F183F6925 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B836B8CA20AB7AF60039477A = {
+			isa = PBXGroup;
+			children = (
+				B83C888D20ABB20800330965 /* Objects */,
+				B836B8D520AB7AF60039477A /* LohmanSean_CoffeeApp */,
+				B836B8E920AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App */,
+				B836B8F820AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension */,
+				B836B8D420AB7AF60039477A /* Products */,
+				113ECDC8499AF708DEFB839E /* Pods */,
+				0241D7724CE26956E97EE972 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B836B8D420AB7AF60039477A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B836B8D320AB7AF60039477A /* LohmanSean_CoffeeApp.app */,
+				B836B8E520AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App.app */,
+				B836B8F420AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B836B8D520AB7AF60039477A /* LohmanSean_CoffeeApp */ = {
+			isa = PBXGroup;
+			children = (
+				B83C889720ACAA6500330965 /* View Controllers */,
+				B83C889420ABB8F500330965 /* Extensions */,
+				B83C889120ABB5B500330965 /* CollectionView Cell */,
+				B836B8D620AB7AF60039477A /* AppDelegate.swift */,
+				B836B8DA20AB7AF60039477A /* Main.storyboard */,
+				B836B8DD20AB7AF70039477A /* Assets.xcassets */,
+				B836B8DF20AB7AF70039477A /* LaunchScreen.storyboard */,
+				B836B8E220AB7AF70039477A /* Info.plist */,
+			);
+			path = LohmanSean_CoffeeApp;
+			sourceTree = "<group>";
+		};
+		B836B8E920AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				B836B8EA20AB7AF70039477A /* Interface.storyboard */,
+				B836B8ED20AB7AF80039477A /* Assets.xcassets */,
+				B836B8EF20AB7AF80039477A /* Info.plist */,
+			);
+			path = "LohmanSean_CoffeeApp WatchKit App";
+			sourceTree = "<group>";
+		};
+		B836B8F820AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				B836B8F920AB7AF80039477A /* InterfaceController.swift */,
+				B836B8FB20AB7AF80039477A /* ExtensionDelegate.swift */,
+				B836B8FD20AB7AF80039477A /* NotificationController.swift */,
+				B836B8FF20AB7AF90039477A /* Assets.xcassets */,
+				B836B90120AB7AF90039477A /* Info.plist */,
+				B836B90220AB7AF90039477A /* PushNotificationPayload.apns */,
+			);
+			path = "LohmanSean_CoffeeApp WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		B83C888D20ABB20800330965 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				B83C888E20ABB22300330965 /* Coffee.swift */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		B83C889120ABB5B500330965 /* CollectionView Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B83C889220ABB5D800330965 /* CoffeeViewCell.swift */,
+			);
+			path = "CollectionView Cell";
+			sourceTree = "<group>";
+		};
+		B83C889420ABB8F500330965 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B83C889520ABB90400330965 /* UIColor.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B83C889720ACAA6500330965 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B836B8D820AB7AF60039477A /* ViewController.swift */,
+				B83C888B20ABAA6200330965 /* AddCoffeeController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B836B8D220AB7AF60039477A /* LohmanSean_CoffeeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B836B90D20AB7AF90039477A /* Build configuration list for PBXNativeTarget "LohmanSean_CoffeeApp" */;
+			buildPhases = (
+				D28C5A460830FEF39BFC1DFE /* [CP] Check Pods Manifest.lock */,
+				B836B8CF20AB7AF60039477A /* Sources */,
+				B836B8D020AB7AF60039477A /* Frameworks */,
+				B836B8D120AB7AF60039477A /* Resources */,
+				B836B90C20AB7AF90039477A /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B836B8E820AB7AF70039477A /* PBXTargetDependency */,
+			);
+			name = LohmanSean_CoffeeApp;
+			productName = LohmanSean_CoffeeApp;
+			productReference = B836B8D320AB7AF60039477A /* LohmanSean_CoffeeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B836B8E420AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B836B90920AB7AF90039477A /* Build configuration list for PBXNativeTarget "LohmanSean_CoffeeApp WatchKit App" */;
+			buildPhases = (
+				12E3B6A4693F99903E50C993 /* [CP] Check Pods Manifest.lock */,
+				B836B8E320AB7AF70039477A /* Resources */,
+				B836B90820AB7AF90039477A /* Embed App Extensions */,
+				6E8197A5AE58E880645DBA69 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B836B8F720AB7AF80039477A /* PBXTargetDependency */,
+			);
+			name = "LohmanSean_CoffeeApp WatchKit App";
+			productName = "LohmanSean_CoffeeApp WatchKit App";
+			productReference = B836B8E520AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B836B8F320AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B836B90520AB7AF90039477A /* Build configuration list for PBXNativeTarget "LohmanSean_CoffeeApp WatchKit Extension" */;
+			buildPhases = (
+				E0C7740F6D3C0CA87C145EAB /* [CP] Check Pods Manifest.lock */,
+				B836B8F020AB7AF80039477A /* Sources */,
+				B836B8F120AB7AF80039477A /* Frameworks */,
+				B836B8F220AB7AF80039477A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LohmanSean_CoffeeApp WatchKit Extension";
+			productName = "LohmanSean_CoffeeApp WatchKit Extension";
+			productReference = B836B8F420AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B836B8CB20AB7AF60039477A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Sean Lohman";
+				TargetAttributes = {
+					B836B8D220AB7AF60039477A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B836B8E420AB7AF70039477A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B836B8F320AB7AF80039477A = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = B836B8CE20AB7AF60039477A /* Build configuration list for PBXProject "LohmanSean_CoffeeApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B836B8CA20AB7AF60039477A;
+			productRefGroup = B836B8D420AB7AF60039477A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B836B8D220AB7AF60039477A /* LohmanSean_CoffeeApp */,
+				B836B8E420AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App */,
+				B836B8F320AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B836B8D120AB7AF60039477A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B8E120AB7AF70039477A /* LaunchScreen.storyboard in Resources */,
+				B836B8DE20AB7AF70039477A /* Assets.xcassets in Resources */,
+				B836B8DC20AB7AF60039477A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B8E320AB7AF70039477A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B8EE20AB7AF80039477A /* Assets.xcassets in Resources */,
+				B836B8EC20AB7AF70039477A /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B8F220AB7AF80039477A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B90020AB7AF90039477A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12E3B6A4693F99903E50C993 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LohmanSean_CoffeeApp WatchKit App-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D28C5A460830FEF39BFC1DFE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LohmanSean_CoffeeApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C7740F6D3C0CA87C145EAB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LohmanSean_CoffeeApp WatchKit Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B836B8CF20AB7AF60039477A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B8D920AB7AF60039477A /* ViewController.swift in Sources */,
+				B83C889620ABB90400330965 /* UIColor.swift in Sources */,
+				B83C888C20ABAA6200330965 /* AddCoffeeController.swift in Sources */,
+				B836B8D720AB7AF60039477A /* AppDelegate.swift in Sources */,
+				B83C889320ABB5D800330965 /* CoffeeViewCell.swift in Sources */,
+				B83C888F20ABB22300330965 /* Coffee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B836B8F020AB7AF80039477A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B836B8FE20AB7AF80039477A /* NotificationController.swift in Sources */,
+				B836B8FC20AB7AF80039477A /* ExtensionDelegate.swift in Sources */,
+				B836B8FA20AB7AF80039477A /* InterfaceController.swift in Sources */,
+				B83C889020ABB22300330965 /* Coffee.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B836B8E820AB7AF70039477A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B836B8E420AB7AF70039477A /* LohmanSean_CoffeeApp WatchKit App */;
+			targetProxy = B836B8E720AB7AF70039477A /* PBXContainerItemProxy */;
+		};
+		B836B8F720AB7AF80039477A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B836B8F320AB7AF80039477A /* LohmanSean_CoffeeApp WatchKit Extension */;
+			targetProxy = B836B8F620AB7AF80039477A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B836B8DA20AB7AF60039477A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B836B8DB20AB7AF60039477A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B836B8DF20AB7AF70039477A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B836B8E020AB7AF70039477A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B836B8EA20AB7AF70039477A /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B836B8EB20AB7AF70039477A /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B836B90320AB7AF90039477A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B836B90420AB7AF90039477A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B836B90620AB7AF90039477A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9210865EC1D48AC82AA24865 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F86JU6NTWJ;
+				INFOPLIST_FILE = "LohmanSean_CoffeeApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanlohman.LohmanSean-CoffeeApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		B836B90720AB7AF90039477A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E72E1DFAB0A79F183F6925 /* Pods-LohmanSean_CoffeeApp WatchKit Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F86JU6NTWJ;
+				INFOPLIST_FILE = "LohmanSean_CoffeeApp WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanlohman.LohmanSean-CoffeeApp.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		B836B90A20AB7AF90039477A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0AD552DFA514F4DCDE6B02 /* Pods-LohmanSean_CoffeeApp WatchKit App.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F86JU6NTWJ;
+				IBSC_MODULE = LohmanSean_CoffeeApp_WatchKit_Extension;
+				INFOPLIST_FILE = "LohmanSean_CoffeeApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanlohman.LohmanSean-CoffeeApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Debug;
+		};
+		B836B90B20AB7AF90039477A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A6F369135F0DB75164B1F7 /* Pods-LohmanSean_CoffeeApp WatchKit App.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F86JU6NTWJ;
+				IBSC_MODULE = LohmanSean_CoffeeApp_WatchKit_Extension;
+				INFOPLIST_FILE = "LohmanSean_CoffeeApp WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanlohman.LohmanSean-CoffeeApp.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 4.3;
+			};
+			name = Release;
+		};
+		B836B90E20AB7AF90039477A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB8FBBD4974F906020532B52 /* Pods-LohmanSean_CoffeeApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F86JU6NTWJ;
+				INFOPLIST_FILE = LohmanSean_CoffeeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanlohman.LohmanSean-CoffeeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B836B90F20AB7AF90039477A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6428445795C0E27BDBCEA3EF /* Pods-LohmanSean_CoffeeApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F86JU6NTWJ;
+				INFOPLIST_FILE = LohmanSean_CoffeeApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.seanlohman.LohmanSean-CoffeeApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B836B8CE20AB7AF60039477A /* Build configuration list for PBXProject "LohmanSean_CoffeeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836B90320AB7AF90039477A /* Debug */,
+				B836B90420AB7AF90039477A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B836B90520AB7AF90039477A /* Build configuration list for PBXNativeTarget "LohmanSean_CoffeeApp WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836B90620AB7AF90039477A /* Debug */,
+				B836B90720AB7AF90039477A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B836B90920AB7AF90039477A /* Build configuration list for PBXNativeTarget "LohmanSean_CoffeeApp WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836B90A20AB7AF90039477A /* Debug */,
+				B836B90B20AB7AF90039477A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B836B90D20AB7AF90039477A /* Build configuration list for PBXNativeTarget "LohmanSean_CoffeeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B836B90E20AB7AF90039477A /* Debug */,
+				B836B90F20AB7AF90039477A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B836B8CB20AB7AF60039477A /* Project object */;
+}

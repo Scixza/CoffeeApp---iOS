@@ -1,0 +1,6 @@
+module GravitySliderFlowLayout {
+  umbrella header "GravitySliderFlowLayout-umbrella.h"
+
+  export *
+  module * { export * }
+}
